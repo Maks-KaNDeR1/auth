@@ -1,5 +1,6 @@
 {
   "name": "project-name",
+  "homepage": "https://maks-kander1.github.io/auth/",
   "version": "0.1.0",
   "private": true,
   "scripts": {
