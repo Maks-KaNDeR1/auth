@@ -29,6 +29,7 @@ export const Auth = () => {
             bgcolor: {lg: "#F4F4F4", xs: "#fff"},
             height: "100%",
             pt: 3, pl: {xl: "157px", lg: "106px", md: 3},
+            pb: 4,
           }} >
 
           {
@@ -78,7 +79,7 @@ export const Auth = () => {
         </Stack>
       </Grid>
 
-      <Grid md={0} lg={6.2}>
+      <Grid md={0} lg={6.2} display={{xs: "none", lg: "flex"}}>
         <Box height="100%" position="relative" overflow="hidden" sx={{bgcolor: "#526ed3"}} pt={20} px={8}>
           <Typography fontSize={40} fontWeight={700}>Start Investing in global stock markets</Typography>
           <Typography mt={3} >Mind.money.eu is the easiest place to invest your money and become a rich guy.
