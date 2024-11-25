@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import React from 'react';
@@ -90,7 +91,7 @@ export const Auth = () => {
               position: "absolute",
               bottom: 0,
               right: 0,
-              height: "60%",
+              height: "55%",
               maxWidth: "90%",
               objectFit: "cover",
               objectPosition: "left",

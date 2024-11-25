@@ -6,8 +6,6 @@ const nextConfig: NextConfig = {
     dirs: ["fsd", "src"],
   },
   output: "export",
-  assetPrefix: "/auth",
-  basePath: "/auth",
 };
 
 export default nextConfig;
