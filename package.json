@@ -1,6 +1,6 @@
 {
   "name": "project-name",
-  "homepage": "https://maks-kander1.github.io/auth/",
+  "homepage": "https://maks-kander1.github.io/auth",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "deploy": "npm run build && gh-pages -d auth"
+    "deploy": "npm run build && gh-pages -d out"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
