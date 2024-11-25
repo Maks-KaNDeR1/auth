@@ -7,7 +7,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "npm run build && gh-pages -d auth"
   },
   "dependencies": {
     "@emotion/react": "^11.11.3",
@@ -28,6 +29,7 @@
     "@types/react-dom": "^18",
     "eslint": "^8",
     "eslint-config-next": "15.0.3",
+    "gh-pages": "^6.2.0",
     "typescript": "^5"
   }
 }
