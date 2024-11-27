@@ -57,9 +57,9 @@ export const AuthForm = () => {
 
   const getPasswordIcon = (condition: boolean) =>
     condition ? (
-      <CheckIcon sx={{fill: !passwordEntered ? "#A6ABB0" : "#fff", fontSize: "16"}} />
+      <CheckIcon sx={{fill: "#fff", fontSize: "16px"}} />
     ) : (
-      <CloseIcon sx={{fill: !passwordEntered ? "#A6ABB0" : "#EF4E57"}} fontSize="small" />
+      <CloseIcon sx={{fill: !passwordEntered ? "#A6ABB0" : "#EF4E57", fontSize: "16px"}} />
     );
 
   return (
@@ -186,7 +186,7 @@ export const AuthForm = () => {
             InputProps={{
               endAdornment: referralCode && validPromoCodes.includes(referralCode) ? (
                 <InputAdornment position="end">
-                  <CheckIcon />
+                  <CheckIcon sx={{mt: -2, fill: "#fff", fontSize: "16px"}} />
                 </InputAdornment>
               ) : null,
             }}
